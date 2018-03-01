@@ -83,7 +83,7 @@ body {
   border-top-right-radius: 175px;
 }
 
-.chart-skills::after {
+/*.chart-skills::after {
   content: '40.000 km/h';
   left: 57%;
   bottom: 10px;
@@ -91,6 +91,35 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   color: cadetblue;
+}*/
+
+.howmany {
+  text-align: center;
+  margin-top: -63px;
+  font-size: 40px;
+  color: #abaacd;
+}
+
+.km {
+  text-align: center;
+  color: #abaacd;
+  font-size: 25px;
+  margin-top: -19px;
+}
+
+.zero, .seven {
+  color: #abaacd;
+  font-size: 16px;
+}
+
+.zero {
+  margin-left: 25px;
+  margin-top: -43px; 
+}
+
+.seven {
+  margin-left: 310px;
+  margin-top: -41px;
 }
 
 
@@ -124,7 +153,7 @@ body {
   border-color: #AC1927;
   animation-name: rotate-three;
   animation-delay: 0.1s;
-  animation-duration: 3s;
+  animation-duration: 4s;
 }
 
 .chart-skills li:nth-child(4) {

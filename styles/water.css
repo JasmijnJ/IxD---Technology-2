@@ -83,7 +83,7 @@ figure {
   margin-left: 50px;
 }
 
-.druppeltekst {
+.druppeltekst, .fueltekst {
   margin-top: -191px;
   color: #616174;
   text-align: center;
