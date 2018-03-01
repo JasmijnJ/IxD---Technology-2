@@ -89,6 +89,17 @@ figure {
   text-align: center;
 }
 
+.donut-segment {
+   animation: progress 3s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
 @media only screen and (min-width: 768px) {
   svg {
     width: 307px;

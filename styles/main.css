@@ -124,6 +124,7 @@ body {
   border-color: #AC1927;
   animation-name: rotate-three;
   animation-delay: 0.1s;
+  animation-duration: 3s;
 }
 
 .chart-skills li:nth-child(4) {
@@ -132,6 +133,7 @@ body {
   animation-name: rotate-four;
   animation-delay: 0.1s;
   opacity: 0.32;
+  animation-duration: 3s;
 }
 
 .chart-skills span {
@@ -172,27 +174,7 @@ body {
 /* ANIMATIONS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@keyframes rotate-one {
-  100% {
-    transform: rotate(21.6deg);
-    /**
-     * 12% => 21.6deg
-     */
-  }
-}
 
-@keyframes rotate-two {
-  0% {
-    transform: rotate(21.6deg);
-  }
-  100% {
-    transform: rotate(79.2deg);
-    /**
-     * 32% => 57.6deg 
-     * 57.6 + 21.6 => 79.2deg
-     */
-  }
-}
 
 @keyframes rotate-three {
   0% {
