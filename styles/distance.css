@@ -3,7 +3,7 @@
 				  width: 100%;
 				  height: 100%;
 				  position: relative;
-				  color: #fff;
+				  color: #1BD067;
 				  font-size: 80%;
 				}
 				.grafico span {
@@ -19,13 +19,13 @@
 				.grafico span > span {
 				  left: 100%; bottom: 0;
 				}
-				[data-valor='25'] {width: 75px; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
-				[data-valor='8'] {width: 24px; -webkit-transform: rotate(65deg); transform: rotate(65deg);}
-				[data-valor='13'] {width: 39px; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
-				[data-valor='5'] {width: 15px; -webkit-transform: rotate(50deg); transform: rotate(50deg);}
-				[data-valor='23'] {width: 69px; -webkit-transform: rotate(-70deg); transform: rotate(-70deg);}
-				[data-valor='12'] {width: 36px; -webkit-transform: rotate(75deg); transform: rotate(75deg);}
-				[data-valor='15'] {width: 45px; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
+				[data-valor='25'] {width: 15%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
+				[data-valor='8'] {width: 75%; -webkit-transform: rotate(65deg); transform: rotate(65deg);}
+				[data-valor='13'] {width: 139%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
+				[data-valor='5'] {width: 55%; -webkit-transform: rotate(50deg); transform: rotate(50deg);}
+				[data-valor='23'] {width: 160%; -webkit-transform: rotate(-70deg); transform: rotate(-70deg);}
+				[data-valor='12'] {width: 180%; -webkit-transform: rotate(75deg); transform: rotate(75deg);}
+				[data-valor='15'] {width: 50%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
 
 				[data-valor]:before {
 				  content: '';
@@ -34,20 +34,10 @@
 				  right: -4px;
 				  bottom: -3px;
 				  padding: 4px;
-				  background: #fff;
+				  background: #1BD067;
 				  border-radius: 50%;
 				}
-				[data-valor='23']:after {
-				  content: '+' attr(data-valor) '%';
-				  position: absolute;
-				  right: -2.7rem;
-				  top: -1.7rem;
-				  padding: .3rem .5rem;
-				  background: #50597B;
-				  border-radius: .5rem;
-				  -webkit-transform: rotate(45deg);
-				  transform: rotate(45deg);  
-				}
+				
 				[class^='eje-'] {
 				  position: absolute;
 				  left: 0;
@@ -62,6 +52,7 @@
 				.eje-y li {
 				  height: 25%;
 				  border-top: 1px solid #777;
+				  list-style: none;
 				}
 				[data-ejeY]:before {
 				  content: attr(data-ejeY);
@@ -74,7 +65,8 @@
 				  top: -.5rem;
 				} 
 				.eje-x li {
-				  width: 33%;
+				  width: 16%;
 				  float: left;
 				  text-align: center;
+				  list-style: none;
 				}
