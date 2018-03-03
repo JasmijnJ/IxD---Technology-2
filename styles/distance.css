@@ -81,6 +81,25 @@
 				    margin-top: 18px;
 				}
 
+				.month, .travel {
+					font-size: 10px;
+					position: relative;
+					color: white;
+					opacity: 0.3;
+				}
+
+				.month {
+					margin-left: 20px;
+					margin-left: 271px;
+    				margin-top: -50px;
+				}
+
+				.travel {
+					transform: rotate(-90deg);
+					margin-right: 299px;
+   					margin-top: -132px;
+				}
+
 				@media only screen and (min-width: 768px) {
 					.background {
 				    width: 98%;
@@ -88,4 +107,26 @@
 				    margin-top: 32px;
 				}
 
+				.month {
+					 margin-left: 554px;
+   					 margin-top: -56px;
+
+				}
+
+				.travel {
+					margin-right: 639px;
+    				margin-top: -156px;
+				}
+
 					}
+
+				@media screen and (min-width: 1500px) {
+					.month {
+						margin-left: 658px;
+					}
+					.travel {
+						margin-right: 765px;
+					}
+
+
+				}
