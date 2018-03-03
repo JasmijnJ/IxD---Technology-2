@@ -1,4 +1,4 @@
-.grafico {
+				.chart {
 				  padding: 2rem 1rem 1rem;
 				  width: 100%;
 				  height: 100%;
@@ -6,17 +6,17 @@
 				  color: #1BD067;
 				  font-size: 80%;
 				}
-				.grafico span {
+				.chart span {
 				  display: block;
 				  position: absolute;
 				  bottom: 3rem;
 				  left: 2rem;
 				  height: 0;
-				  border-top: 2px solid;
+				  border-top: 3px solid;
 				  -webkit-transform-origin: left center;
 				  transform-origin: left center;
 				}
-				.grafico span > span {
+				.chart span > span {
 				  left: 100%; bottom: 0;
 				}
 				[data-valor='25'] {width: 15%; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);}
@@ -50,7 +50,7 @@
 				  height: 2.5rem;
 				}
 				.eje-y li {
-				  height: 25%;
+				  height: 27%;
 				  border-top: 1px solid #777;
 				  list-style: none;
 				}
@@ -70,3 +70,22 @@
 				  text-align: center;
 				  list-style: none;
 				}
+
+				.background {
+					position: relative;
+				    background-color: #707070;
+				    width: 96%;
+				    height: 75%;
+				    opacity: 0.05;
+				    margin-left: 14px;
+				    margin-top: 18px;
+				}
+
+				@media only screen and (min-width: 768px) {
+					.background {
+				    width: 98%;
+				    height: 74%;
+				    margin-top: 32px;
+				}
+
+					}

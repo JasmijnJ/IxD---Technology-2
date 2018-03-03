@@ -21,7 +21,7 @@ body {
 
 .speed {
 	grid-area: speed;
-	margin-top: 60px;
+	margin-top: 18px;
 }
 
 .water {
@@ -36,11 +36,7 @@ body {
 	grid-area: distance;
 }
 
-body {
-  font: normal 16px/1.5 'Roboto', sans-serif;
- 
-  
-}
+
 
 
 /* RESET STYLES
@@ -267,7 +263,7 @@ body {
 
 	.test {
 		margin: auto;
-		margin-top: 30px;
+		margin-top: 49px;
 
 	}
 }
@@ -282,7 +278,33 @@ body {
 		}
 
 	.speed, .water {
-		margin-top: 60px;
+		margin-top: 18px;
 		}
 
+  .km {
+    font-size: 30px;
+    margin-top: -33px;
+  }
+
+  .howmany {
+      font-size: 49px;
+  }
 	}
+
+  @media screen and (min-width: 1500px) {
+    .speed, .distance {
+    width: 827.46px;
+    height: 339.9px;
+  }
+
+  .water, .fuel {
+    width: 428px;
+    height: 339.9px;
+  }
+
+  
+
+  
+
+
+  }
